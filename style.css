@@ -3,10 +3,13 @@
     background-color: #1F2937;
     font-family: Roboto;
     flex-direction: column;
+    margin-top: -8px;
 }
 body{
     display: flex;
     flex-direction: column;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 .logo-links{
     display: flex;
@@ -95,6 +98,7 @@ a{
     gap: 40px;
     padding-left: 200px;
     padding-right: 200px;
+    padding-bottom: 60px;
 
 }
 
@@ -108,4 +112,67 @@ a{
 
 .info1-bloc p{
     text-align: center;
+}
+
+
+.quot-section{
+    background-color: #E5E7EB;
+    padding: 60px;
+
+    h1{
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 300;
+        font-style: italic;
+        margin-left: 160px;
+        margin-right: 150px;
+    }
+    p{
+        text-align: right;
+        font-weight: 900;
+        margin-right: 200px;
+    }
+}
+
+.action{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 7px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    h1{
+        color: #E5E7EB;
+        font-size: 18px;
+    }
+    p{
+        margin-top: -10px;
+        color: #d9dadc;
+    }
+    .action-btn button{
+        background-color: #3882F6;
+        border: 2px #E5E7EB solid;
+        color: #E5E7EB;
+        padding: 6px 20px;
+        border-radius: 6px;
+    }
+}
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    p{
+        text-align: center;
+    }
 }
